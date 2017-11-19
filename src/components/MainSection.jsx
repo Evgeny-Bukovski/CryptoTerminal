@@ -40,7 +40,7 @@ export default class MainSection extends Component {
         }
     }
 
-    renderFooter(completedCount) {
+    renderFilter(completedCount) {
         const {todos} = this.props;
         const {filter} = this.state;
         const activeCount = todos.length - completedCount;
@@ -65,7 +65,9 @@ export default class MainSection extends Component {
 
         return (
             <section className="main">
-                {this.renderToggleAll(completedCount)}
+                {
+                    this.renderFilter(completedCount)
+                }
                 <ul className="todo-list">
                     {
                         filteredTodos.map(todo =>
@@ -77,7 +79,10 @@ export default class MainSection extends Component {
                         )
                     }
                 </ul>
-                {this.renderFooter(completedCount)}
+                <div className="renderToggleAll">
+                    {this.renderToggleAll(completedCount)}
+                    <b>Mark all as completed</b>
+                </div>
             </section>
         )
     }

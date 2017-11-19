@@ -16,8 +16,8 @@ export default class Header extends Component {
     render() {
         return (
             <header className="header">
-                <h1>ToDo list</h1>
-                <TodoTextInput onSave={this.handleSave} placeholder="Write text"/>
+                <h1>Todos</h1>
+                <TodoTextInput onSave={this.handleSave} placeholder="Task text"/>
             </header>
         )
     }

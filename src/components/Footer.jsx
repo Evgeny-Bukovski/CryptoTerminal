@@ -59,6 +59,9 @@ export default class Footer extends Component {
         return (
             <footer className="footer">
                 {this.renderTodoCount()}
+                <div>
+                    Filters:
+                </div>
                 <ui className="filters">
                     {[SHOW_ALL, SHOW_ACTIVE, SHOW_COMPLETED].map(filter =>
                         <li key={filter}>
