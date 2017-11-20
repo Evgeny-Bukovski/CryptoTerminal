@@ -2,7 +2,7 @@
 ###### It's example react app for my friends from codrob.ru
 
 ### Simple todo list
-![React-Redux-ToDo-App App](https://raw.githubusercontent.com/it-efrem/React-Redux-ToDo-App/master/screenshots//1.png)
+![React-Redux-ToDo-App App](https://raw.githubusercontent.com/it-efrem/React-Redux-ToDo-App/master/screenshots/1.png)
 
 ### Add "New task"
 ![React-Redux-ToDo-App App](screenshots/2.png)
