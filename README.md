@@ -1,6 +1,12 @@
 ### React-Redux-ToDo-App
 ###### It's example react app for my friends from codrob.ru
 
+# [⛔ Deprecated]
+###### Use last [React](https://www.npmjs.com/package/react)
+###### And last [Redux](https://www.npmjs.com/package/redux) or [MobX](https://www.npmjs.com/package/mobx)
+
+
+
 ### Simple todo list
 ![React-Redux-ToDo-App App](https://raw.githubusercontent.com/it-efrem/React-Redux-ToDo-App/master/https://raw.githubusercontent.com/it-efrem/React-Redux-ToDo-App/master/screenshots/1.PNG)
 
